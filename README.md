@@ -1,2 +1,6 @@
-# mui-shop-project
-клон проекта https://github.com/michey85/mui-shop-project
+# Стартовый проект для использования Material UI
+
+Для начала работы необходимо установить зависимости:
+```
+npm install
+```
