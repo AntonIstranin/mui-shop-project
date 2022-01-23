@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import BasketList from './BasketList';
+import Header from './Header';
 import GoodsList from './GoodsList';
 import Search from './Search';
 
