@@ -1,16 +1,16 @@
 import { Close } from "@mui/icons-material";
 import { IconButton, ListItem, Typography } from "@mui/material";
 
-const BasketItem = ({removeFromorder, id, name, price, quantity }) => {
+const BasketItem = ({removeFromOrder, id, name, price, quantity}) => {
     return (
         <ListItem>
             <Typography
-            variant = 'body1'
+                variant="body1"
             >
-            {name} {price}руб x{quantity}
+                {name} {price}руб x{quantity}
             </Typography>
             <IconButton
-                onClick={() => removeFromorder(id)}
+                onClick={() => removeFromOrder(id)}
             >
                 <Close />
             </IconButton>
